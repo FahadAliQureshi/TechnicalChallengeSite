@@ -83,7 +83,7 @@ const FourthSection = () => {
               left: "0%",
               fontSize: "40px",
               color: "white",
-              // zIndex:"-999",
+              // zIndex:"10",
             }}
           >
             <img
@@ -99,9 +99,9 @@ const FourthSection = () => {
             style={{
               width: "100%",
               position: "absolute",
-              top: "280px",
-              left: "0%",
-
+              top: "180px",
+              // left: "0%",
+              
               // zIndex:"-999",
             }}
           >
@@ -121,6 +121,7 @@ const FourthSection = () => {
               left: "0%",
               fontSize: "40px",
               color: "white",
+
               // zIndex:"-999",
             }}
           >
@@ -580,6 +581,7 @@ const FourthSection = () => {
             position: "absolute",
             top: "1940px",
             color: "white",
+            zIndex: "100",
           }}
         >
           <div
@@ -695,6 +697,7 @@ const FourthSection = () => {
             marginTop: "10px",
             gap: "5%",
             padding: "2% 10%",
+            zIndex: "100",
           }}
         >
           <Cards img={card1} />

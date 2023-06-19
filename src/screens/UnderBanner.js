@@ -9,109 +9,139 @@ const UnderBanner = () => {
     <>
       <div
         style={{
+          width: "100%",
+          // alignItems: "center",
           backgroundImage: `url(${pink3logo})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          width: "100%",
-          height: "180px",
+          display: "flex",
+          justifyContent: "center",
         }}
       >
-        {/* <img
+        <div
           style={{
-            width: "100%",
-            // position: "absolute",
-            marginTop: "185px",
+            width: "80%",
+            height: "180px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+
           }}
-          src={pink3logo}
-          alt=""
-        /> */}
-        <div>
-          <div>
-            <img
-              style={{
-                width: "5%",
-                position: "absolute",
-                top: "715px",
-                left: "15%",
-              }}
-              src={whiteface}
-              alt=""
-            />
-          </div>
-
-          
+        >
           <div
             style={{
-              color: "#FFFFFF",
-              position: "absolute",
-              position: "absolute",
-              top: "725px",
-              left: "22%",
-              fontSize: "15px",
+             
+              // flexDirection:"column"
+              // justifyContent: "center",
+              display:"flex",
+             alignItems:"center",
+             gap:"5%",
+             justifyContent:"center"
+
             }}
           >
-            Lorem ipsum <br />
-            dolor sit amet
-          </div>
-        </div>
 
-        <div>
-          <div>
-            <img
+              <img
+                style={{
+                  width: "15%",
+
+                  // position: "absolute",
+                  // top: "715px",
+                  // left: "15%",
+                  // width:30,
+                  // height:15
+                  
+                }}
+                src={whiteface}
+                alt=""
+              />
+            <p
               style={{
-                width: "5%",
-                position: "absolute",
-                top: "715px",
-                left: "45%",
+                color: "#FFFFFF",
+          
+                fontSize: "15px",
               }}
-              src={Frame}
-              alt=""
-            />
+            >
+              Lorem ipsum <br />
+              dolor sit amet
+            </p>
           </div>
 
-          
           <div
             style={{
-              color: "#FFFFFF",
-              position: "absolute",
-              position: "absolute",
-              top: "725px",
-              left: "52%",
-              fontSize: "15px",
+              justifyContent:"center",
+             
+              // flexDirection:"column"
+              // justifyContent: "center",
+              display:"flex",
+             alignItems:"center",
+             gap:"5%"
+
             }}
           >
-            Lorem ipsum <br />
-            dolor sit amet
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              style={{
-                width: "5%",
-                position: "absolute",
-                top: "715px",
-                left: "75%",
-              }}
-              src={whiteface}
-              alt=""
-            />
-          </div>
 
+              <img
+                style={{
+                  width: "15%",
+
+                  // position: "absolute",
+                  // top: "715px",
+                  // left: "15%",
+                  // width:30,
+                  // height:15
+                  
+                }}
+                src={whiteface}
+                alt=""
+              />
+            <p
+              style={{
+                color: "#FFFFFF",
           
+                fontSize: "15px",
+              }}
+            >
+              Lorem ipsum <br />
+              dolor sit amet
+            </p>
+          </div>
           <div
             style={{
-              color: "#FFFFFF",
-              position: "absolute",
-              position: "absolute",
-              top: "725px",
-              left: "82%",
-              fontSize: "15px",
+              justifyContent:"center",
+              // flexDirection:"column"
+              // justifyContent: "center",
+              display:"flex",
+             alignItems:"center",
+             gap:"5%"
+
             }}
           >
-            Lorem ipsum <br />
-            dolor sit amet
+
+              <img
+                style={{
+                  width: "15%",
+
+                  // position: "absolute",
+                  // top: "715px",
+                  // left: "15%",
+                  // width:30,
+                  // height:15
+                  
+                }}
+                src={whiteface}
+                alt=""
+              />
+            <p
+              style={{
+                color: "#FFFFFF",
+          
+                fontSize: "15px",
+              }}
+            >
+              Lorem ipsum <br />
+              dolor sit amet
+            </p>
           </div>
         </div>
       </div>
