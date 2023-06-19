@@ -9,10 +9,15 @@ const UnderBanner = () => {
     <>
       <div
         style={{
+          backgroundImage: `url(${pink3logo})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
           width: "100%",
+          height: "180px",
         }}
       >
-        <img
+        {/* <img
           style={{
             width: "100%",
             // position: "absolute",
@@ -20,7 +25,7 @@ const UnderBanner = () => {
           }}
           src={pink3logo}
           alt=""
-        />
+        /> */}
         <div>
           <div>
             <img

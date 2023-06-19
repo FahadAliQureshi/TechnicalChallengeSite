@@ -7,7 +7,8 @@ import UnderBanner from './screens/UnderBanner';
 import ThirdPart from './screens/ThirdPart';
 import FourthSection from './screens/FourthSection';
 import FifthSection from './screens/FifthSection';
-
+import Contact from './screens/Contact';
+import Info from './screens/Info';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
 <FourthSection/>
 
 <FifthSection/>
+<Contact/>
+<Info/>
 </div>
   );
 }

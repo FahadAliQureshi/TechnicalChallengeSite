@@ -12,17 +12,24 @@ const ThirdPart = () => {
       <div
         style={{
           width: "100%",
+
+          backgroundImage: `url(${third})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          width: "100%",
+          height: "1000px",
         }}
       >
-        <img
+        {/* <img
           style={{
             width: "100%",
             position: "absolute",
-            top: "810px",
+            top: "1810px",
           }}
           src={third}
           alt=""
-        />
+        /> */}
         <img
           style={{
             width: "100%",
