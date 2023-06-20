@@ -20,6 +20,7 @@ const BoxBlack = ({ img }) => {
           zIndex: 999,
           paddingBottom: 38,
         }}
+        
       >
         <img
           style={{

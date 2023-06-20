@@ -3,6 +3,7 @@ import pink3logo from "../images/pink3logo.PNG";
 import whiteface from "../images/whiteface.png";
 
 import Frame from "../images/Frame.png";
+import warning from "../images/warning.png";
 
 const UnderBanner = () => {
   return (
@@ -92,7 +93,7 @@ const UnderBanner = () => {
                   // height:15
                   
                 }}
-                src={whiteface}
+                src={Frame}
                 alt=""
               />
             <p
@@ -129,7 +130,7 @@ const UnderBanner = () => {
                   // height:15
                   
                 }}
-                src={whiteface}
+                src={warning}
                 alt=""
               />
             <p

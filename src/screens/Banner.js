@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import main from "../images/main.png";
 
+import upload from "../images/upload.png";
+
 const Banner = () => {
   return (
     <>
@@ -65,16 +67,17 @@ const Banner = () => {
                     width: "75%",
                     height: "40px",
                     border: "1px solid #FFFFFF",
-                    borderRadius: "50px",
+                    borderRadius: "999px",
                     alignItems: "center",
+                    gap:"0.5%"
                   }}
                 >
-                  <div style={{ color: "white", fontSize: "12px" }}>
+                  <div style={{ color: "white", fontSize: "12px", marginLeft:"1%" }}>
                     Enter ID Here
                   </div>
                   <input
                     style={{
-                      width: "50%",
+                      width: "47%",
                       height: "30px",
                       background: "transparent",
                       outline: "none",
@@ -83,8 +86,15 @@ const Banner = () => {
                     }}
                     type="text"
                   />
-                  <div style={{ color: "white", fontSize: "12px" }}>
+                  <div style={{ color: "white", fontSize: "12px",  marginRight:"1%" }}>
                     Or Upload A Photo To Search
+                  </div>
+                  <div
+                  style={{background:"-webkit-linear-gradient(right, #3AC5EF, #C977D6)", width:"5.8%", height:"80%", borderRadius:"999px"}}
+                  >
+                    <img 
+                    style={{width:"30%"}}
+                    src={upload} alt="" />
                   </div>
                 </div>
               </div>

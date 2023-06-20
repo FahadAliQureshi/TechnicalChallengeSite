@@ -24,8 +24,8 @@ import Cards from "../components/Cards";
 import expandarrow from "../images/expandarrow.png";
 
 import lineExpand from "../images/lineExpand.png";
-
 import expandup from "../images/expandup.png";
+import purpleEffect from "../images/purpleEffect.png";
 
 const FourthSection = () => {
   const styles = {
@@ -84,6 +84,21 @@ const FourthSection = () => {
       alignSelf: "center",
       alignItems: "center",
     },
+    longCont: {
+      background: "#171820",
+      width: "29.5%",
+      marginTop: "40px",
+      color: "#A6A9B8",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "left",
+      alignContent: "center",
+      borderRadius: 6,
+      border: "1px solid rgba(255,255,255,0.44)",
+      padding: "1.2% 0%",
+    },
   };
   return (
     <>
@@ -121,8 +136,45 @@ const FourthSection = () => {
               <BoxBlack img={eye} />
               <BoxBlack img={eye} />
             </div>
+
+            {/* Light Effect Right Bottom of Boxes */}
+            <div
+              style={{
+                position: "absolute",
+                width: "100%",
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+            >
+              <img style={{ width: "40%" }} src={bottomright} alt="" />
+            </div>
+
+            <div
+              style={{
+                position: "absolute",
+                top: "1100px",
+                width: "100%",
+                display: "flex",
+                justifyContent: "flex-start",
+              }}
+            >
+              <img style={{ width: "45%" }} src={greenleftbottom} alt="" />
+            </div>
+
+            <div
+              style={{
+                position: "absolute",
+                top: "1970px",
+                width: "100%",
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+            >
+              <img style={{ width: "40%" }} src={purpleEffect} alt="" />
+            </div>
+            {/* yhn tk light effects */}
           </div>
-          <div style={{ ...styles.cont1, fontSize: 40 }}>
+          <div style={{ ...styles.cont1, fontSize: 40, paddingTop: "130px" }}>
             <div
               style={{
                 fontWeight: "700",
@@ -372,6 +424,7 @@ const FourthSection = () => {
               alignItems: "center",
               textAlign: "center",
               gap: "5%",
+              zIndex: "20",
             }}
           >
             {" "}
@@ -402,7 +455,17 @@ const FourthSection = () => {
 
         {/* cards */}
 
-        <div style={{ width: "100%", color: "white" }}>
+        <div
+          style={{
+            width: "100%",
+            color: "white",
+            fontSize: "55px",
+            fontWeight: "600",
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "130px",
+          }}
+        >
           <div>
             Join the{" "}
             <span
@@ -417,74 +480,42 @@ const FourthSection = () => {
             movement
           </div>
         </div>
-
-        <div style={{ width: "100%", display: "flex" }}>
-          <div style={{ ...styles.mainContainer, display: "flex" }}>
-            <div
-              style={{
-                background: "#171820",
-                width: "30%",
-                marginTop: "70px",
-                color: "#A6A9B8",
-              }}
-            >
-              <div>
-                <img
-                  style={{ width: "90%", margin: "5% 0px" }}
-                  src={card1}
-                  alt=""
-                />
-              </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt...
-              </div>
+      </div>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          background: "#050718",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "80%",
+            justifyContent: "space-between",
+            display: "flex",
+          }}
+        >
+          <div style={styles.longCont}>
+            <img style={{ width: "94%" }} src={card1} alt="" />
+            <div style={{ width: "94%", marginTop: 10 }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt...
             </div>
           </div>
-
-          <div style={styles.mainContainer}>
-            <div
-              style={{
-                background: "#171820",
-                width: "30%",
-                marginTop: "70px",
-                color: "#A6A9B8",
-              }}
-            >
-              <div>
-                <img
-                  style={{ width: "90%", margin: "5% 0px" }}
-                  src={card1}
-                  alt=""
-                />
-              </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt...
-              </div>
+          <div style={styles.longCont}>
+            <img style={{ width: "90%" }} src={card2} alt="" />
+            <div style={{ width: "90%", marginTop: 10 }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt...
             </div>
           </div>
-
-          <div style={styles.mainContainer}>
-            <div
-              style={{
-                background: "#171820",
-                width: "30%",
-                marginTop: "70px",
-                color: "#A6A9B8",
-              }}
-            >
-              <div>
-                <img
-                  style={{ width: "90%", margin: "5% 0px" }}
-                  src={card1}
-                  alt=""
-                />
-              </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt...
-              </div>
+          <div style={{ ...styles.longCont, zIndex: "22" }}>
+            <img style={{ width: "90%" }} src={card3} alt="" />
+            <div style={{ width: "90%", marginTop: 10 }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt...
             </div>
           </div>
         </div>
@@ -492,21 +523,78 @@ const FourthSection = () => {
 
       {/* Frequently 
 Asked Questions */}
-      <div style={{ ...styles.mainContainer, display: "flex", color: "white" }}>
-        <div style={{ width: "40%", display: "flex", flexDirection: "column" }}>
-          <div>Frequently Asked Questions</div>
-          <div>
+      <div
+        style={{
+          ...styles.mainContainer,
+          display: "flex",
+          color: "white",
+          height: "400px",
+          paddingTop: "70px",
+          gap: "13%",
+          paddingTop: "150px",
+        }}
+      >
+        <div
+          style={{
+            width: "30%",
+            display: "flex",
+            flexDirection: "column",
+            marginLeft: "9%",
+          }}
+        >
+          <div style={{ fontSize: "30px", fontWeight: "600" }}>
+            Frequently <br /> Asked Questions
+          </div>
+          <div style={{ color: "#A6A9B8", fontSize: "14px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </div>
         </div>
 
         <div style={{ width: "50%", display: "flex", flexDirection: "column" }}>
-          <div style={{}}>
-            <div>Lorem ipsum dolor sit amet, consectetur?</div>
-            <div>
-              <img src={expandarrow} alt="" />
-            </div>
+          {Array.from({ length: 6 }).map((item, index) => {
+            return (
+              <div style={{ width: "67%",
+            }}>
+                <div style={{ display: "flex", width: "100%",alignItems:"center",
+              background: index == 5 ?"-webkit-linear-gradient(right, #3AC5EF, #C977D6)" : "transparent",
+              padding:index == 5 ? "3% 4%" : 0,
+              justifyContent:"space-between",
+
+            
+            
+              
+            }}>
+                  <div>Lorem ipsum dolor sit amet, consectetur?</div>
+
+                  <img
+                    style={{
+                      width: 15,
+                      height: 15,
+                      objectFit: "contain",
+                    
+                      transform: index == 5 ? 'rotate(180deg)' : 0,
+                    }}
+                    src={expandarrow}
+                    alt=""
+                  />
+                </div>
+                {
+                  index != 5 && 
+                  <div
+                  style={{ height: index== 4 ?  0 : 0.5, background: "rgba(255,255,255,0.3)", margin:  "15px 0px",width:"97%" }}
+                />
+                }
+               
+              </div>
+            );
+          })}
+
+          <div style={{ width: "62%", color: "#D7D7D7", fontSize: "12px" }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </div>
         </div>
       </div>
