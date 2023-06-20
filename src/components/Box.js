@@ -5,36 +5,44 @@ import frth1 from "../images/frth1.png";
 const Boxes = () => {
   return (
     <>
-    <div 
-    style={{width:"100%"}}
-    >
 
-    </div>
     <div
     style={{
-      width:"290%",
-      height:"34%",
+      width:"30%",
+      height:240,
         background: "linear-gradient(to bottom right, #A709FD, #3FE0FF)",
         color:"white",
         display:"flex",
         flexDirection:"column",
-        justifyContent:"center"
+        alignItems:"center",
+        textAlign:"center",
+        borderRadius:4,
+        border:"1px solid #FFFFFF70",
+        justifyContent:"center",
+        zIndex:999,
+        paddingBottom:38
+        
+
+        
 
     }}
     >
-      <div>
+    
         <img 
         style={{
-          width:"25%",
+          width:70,
+          height:70
+
           
         }}
         src={frth1} alt="" />
-        </div>
-        <div
+         <div
         style={{fontWeight:"bold"}}
         >Lorem</div>
+     
+       
         <div
-        style={{width:"90%",}}
+        style={{width:"90%",marginTop:18}}
         >Lorem ipsum dolor sit amer please consider this as dummy text only</div>
     </div>
     </>
