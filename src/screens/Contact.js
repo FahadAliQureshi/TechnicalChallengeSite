@@ -46,7 +46,7 @@ const Contact = () => {
             width: "40%",
             background: "rgba(0, 0, 0, 0.5)",
             color: "white",
-            padding:"3%",
+            padding: "3%",
             display: "flex",
             flexDirection: "column",
             gap: "17%",
@@ -56,28 +56,28 @@ const Contact = () => {
             style={{
               display: "flex",
               flexDirection: "column",
-              gap:"15%"
-              
+              gap: "15%"
+
             }}
           >
             <div
               style={{
                 fontSize: "20px",
                 fontWeight: "bold",
-                
+
               }}
             >
               Contact
             </div>
-            <div style={{marginTop:"5%", display: "flex", gap: "2%" }}>
+            <div style={{ marginTop: "5%", display: "flex", gap: "2%" }}>
               <input
                 style={{
                   background: "transparent",
                   border: "1px solid white",
                   padding: "2% 10% 2% 3%",
-                  outline:"none",
-                  borderRadius:"1%",
-                  color:"white",
+                  outline: "none",
+                  borderRadius: "1%",
+                  color: "white",
                 }}
                 placeholder=" First Name"
                 type="text"
@@ -88,47 +88,47 @@ const Contact = () => {
                   background: "transparent",
                   border: "1px solid white",
                   padding: "2% 10% 2% 3%",
-                  outline:"none",
-                  borderRadius:"1%",
-                  color:"white",
+                  outline: "none",
+                  borderRadius: "1%",
+                  color: "white",
                 }}
                 placeholder="Last Name"
                 type="text"
               />
             </div>
 
-            <div 
-            style={{
-marginTop:"5%"
-            }}
+            <div
+              style={{
+                marginTop: "5%"
+              }}
             >
               <input
                 style={{
                   background: "transparent",
                   border: "1px solid white",
                   padding: "2% 59% 2% 3%",
-                  outline:"none",
-                  borderRadius:"1%",
-                  color:"white",
+                  outline: "none",
+                  borderRadius: "1%",
+                  color: "white",
                 }}
                 placeholder="Email"
                 type="text"
               />
             </div>
 
-            <div 
-            style={{
-                marginTop:"5%"
-            }}
+            <div
+              style={{
+                marginTop: "5%"
+              }}
             >
               <input
                 style={{
                   background: "transparent",
                   border: "1px solid white",
                   padding: "3% 59% 30% 3%",
-                  outline:"none",
-                  borderRadius:"1%",
-                  color:"white",
+                  outline: "none",
+                  borderRadius: "1%",
+                  color: "white",
                 }}
                 placeholder="Message"
                 type="text"

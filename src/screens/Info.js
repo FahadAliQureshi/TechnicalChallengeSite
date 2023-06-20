@@ -291,36 +291,36 @@ const Info = () => {
             display: "flex",
             justifyContent: "space-between",
             background: "#050718",
-            justifyItems:"center",
-            alignItems:"center",
-            width:"100%"
-          
+            justifyItems: "center",
+            alignItems: "center",
+            width: "100%"
+
           }}
         >
           <div>
             <img
               style={{
                 width: "25%",
-                paddingLeft:"35%"
+                paddingLeft: "35%"
               }}
               src={language}
               alt=""
             />
           </div>
           <div
-          style={{color:"white", fontSize:"12px"}}
+            style={{ color: "white", fontSize: "12px" }}
           >Copyright @Loremipsum.com </div>
           <div
-          style={{
-            display:"flex",
-            gap:"4%",
-            marginLeft:"6%"
-          }}
+            style={{
+              display: "flex",
+              gap: "4%",
+              marginLeft: "6%"
+            }}
           >
             <img
               style={{
                 width: "12%",
-                height:"12%"
+                height: "12%"
               }}
               src={fbLogo}
               alt=""
@@ -328,7 +328,7 @@ const Info = () => {
             <img
               style={{
                 width: "12%",
-                height:"12%"
+                height: "12%"
               }}
               src={linkedInLogo}
               alt=""
@@ -336,7 +336,7 @@ const Info = () => {
             <img
               style={{
                 width: "12%",
-                height:"12%"
+                height: "12%"
               }}
               src={twitterLogo}
               alt=""

@@ -554,17 +554,19 @@ Asked Questions */}
         <div style={{ width: "50%", display: "flex", flexDirection: "column" }}>
           {Array.from({ length: 6 }).map((item, index) => {
             return (
-              <div style={{ width: "67%",
-            }}>
-                <div style={{ display: "flex", width: "100%",alignItems:"center",
-              background: index == 5 ?"-webkit-linear-gradient(right, #3AC5EF, #C977D6)" : "transparent",
-              padding:index == 5 ? "3% 4%" : 0,
-              justifyContent:"space-between",
+              <div style={{
+                width: "67%",
+              }}>
+                <div style={{
+                  display: "flex", width: "100%", alignItems: "center",
+                  background: index == 5 ? "-webkit-linear-gradient(right, #3AC5EF, #C977D6)" : "transparent",
+                  padding: index == 5 ? "3% 4%" : 0,
+                  justifyContent: "space-between",
 
-            
-            
-              
-            }}>
+
+
+
+                }}>
                   <div>Lorem ipsum dolor sit amet, consectetur?</div>
 
                   <img
@@ -572,7 +574,7 @@ Asked Questions */}
                       width: 15,
                       height: 15,
                       objectFit: "contain",
-                    
+
                       transform: index == 5 ? 'rotate(180deg)' : 0,
                     }}
                     src={expandarrow}
@@ -580,12 +582,12 @@ Asked Questions */}
                   />
                 </div>
                 {
-                  index != 5 && 
+                  index != 5 &&
                   <div
-                  style={{ height: index== 4 ?  0 : 0.5, background: "rgba(255,255,255,0.3)", margin:  "15px 0px",width:"97%" }}
-                />
+                    style={{ height: index == 4 ? 0 : 0.5, background: "rgba(255,255,255,0.3)", margin: "15px 0px", width: "97%" }}
+                  />
                 }
-               
+
               </div>
             );
           })}

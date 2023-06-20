@@ -69,10 +69,10 @@ const Banner = () => {
                     border: "1px solid #FFFFFF",
                     borderRadius: "999px",
                     alignItems: "center",
-                    gap:"0.5%"
+                    gap: "0.5%"
                   }}
                 >
-                  <div style={{ color: "white", fontSize: "12px", marginLeft:"1%" }}>
+                  <div style={{ color: "white", fontSize: "12px", marginLeft: "1%" }}>
                     Enter ID Here
                   </div>
                   <input
@@ -86,15 +86,15 @@ const Banner = () => {
                     }}
                     type="text"
                   />
-                  <div style={{ color: "white", fontSize: "12px",  marginRight:"1%" }}>
+                  <div style={{ color: "white", fontSize: "12px", marginRight: "1%" }}>
                     Or Upload A Photo To Search
                   </div>
                   <div
-                  style={{background:"-webkit-linear-gradient(right, #3AC5EF, #C977D6)", width:"5.8%", height:"80%", borderRadius:"999px"}}
+                    style={{ background: "-webkit-linear-gradient(right, #3AC5EF, #C977D6)", width: "5.8%", height: "80%", borderRadius: "999px" }}
                   >
-                    <img 
-                    style={{width:"30%"}}
-                    src={upload} alt="" />
+                    <img
+                      style={{ width: "30%" }}
+                      src={upload} alt="" />
                   </div>
                 </div>
               </div>

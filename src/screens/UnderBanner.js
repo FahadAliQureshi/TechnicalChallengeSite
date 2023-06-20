@@ -32,35 +32,35 @@ const UnderBanner = () => {
         >
           <div
             style={{
-             
+
               // flexDirection:"column"
               // justifyContent: "center",
-              display:"flex",
-             alignItems:"center",
-             gap:"5%",
-             justifyContent:"center"
+              display: "flex",
+              alignItems: "center",
+              gap: "5%",
+              justifyContent: "center"
 
             }}
           >
 
-              <img
-                style={{
-                  width: "15%",
+            <img
+              style={{
+                width: "15%",
 
-                  // position: "absolute",
-                  // top: "715px",
-                  // left: "15%",
-                  // width:30,
-                  // height:15
-                  
-                }}
-                src={whiteface}
-                alt=""
-              />
+                // position: "absolute",
+                // top: "715px",
+                // left: "15%",
+                // width:30,
+                // height:15
+
+              }}
+              src={whiteface}
+              alt=""
+            />
             <p
               style={{
                 color: "#FFFFFF",
-          
+
                 fontSize: "15px",
               }}
             >
@@ -71,35 +71,35 @@ const UnderBanner = () => {
 
           <div
             style={{
-              justifyContent:"center",
-             
+              justifyContent: "center",
+
               // flexDirection:"column"
               // justifyContent: "center",
-              display:"flex",
-             alignItems:"center",
-             gap:"5%"
+              display: "flex",
+              alignItems: "center",
+              gap: "5%"
 
             }}
           >
 
-              <img
-                style={{
-                  width: "15%",
+            <img
+              style={{
+                width: "15%",
 
-                  // position: "absolute",
-                  // top: "715px",
-                  // left: "15%",
-                  // width:30,
-                  // height:15
-                  
-                }}
-                src={Frame}
-                alt=""
-              />
+                // position: "absolute",
+                // top: "715px",
+                // left: "15%",
+                // width:30,
+                // height:15
+
+              }}
+              src={Frame}
+              alt=""
+            />
             <p
               style={{
                 color: "#FFFFFF",
-          
+
                 fontSize: "15px",
               }}
             >
@@ -109,34 +109,34 @@ const UnderBanner = () => {
           </div>
           <div
             style={{
-              justifyContent:"center",
+              justifyContent: "center",
               // flexDirection:"column"
               // justifyContent: "center",
-              display:"flex",
-             alignItems:"center",
-             gap:"5%"
+              display: "flex",
+              alignItems: "center",
+              gap: "5%"
 
             }}
           >
 
-              <img
-                style={{
-                  width: "15%",
+            <img
+              style={{
+                width: "15%",
 
-                  // position: "absolute",
-                  // top: "715px",
-                  // left: "15%",
-                  // width:30,
-                  // height:15
-                  
-                }}
-                src={warning}
-                alt=""
-              />
+                // position: "absolute",
+                // top: "715px",
+                // left: "15%",
+                // width:30,
+                // height:15
+
+              }}
+              src={warning}
+              alt=""
+            />
             <p
               style={{
                 color: "#FFFFFF",
-          
+
                 fontSize: "15px",
               }}
             >

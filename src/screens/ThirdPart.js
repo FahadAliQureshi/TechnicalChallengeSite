@@ -6,217 +6,218 @@ import future from "../images/future.png";
 import images from "../images/Images.png";
 import arrow from "../images/arrow.png";
 
+
 const ThirdPart = () => {
   return (
     <>
-    <div>
+      <div>
 
-      {/* </div> blck*/}
-      <div
-        style={{
-          width: "100%",
-          backgroundImage: `url(${third})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-
-          height: "600px",
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-
-
-        {/* div to give flex clm */}
+        {/* </div> blck*/}
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "50%",
+            width: "100%",
+            backgroundImage: `url(${third})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
 
-            textAlign: "start",
-            justifyContent: "center",
-            marginLeft:"5%"
+            height: "600px",
+            display: "flex",
+            justifyContent: "space-between",
           }}
         >
+
+
+          {/* div to give flex clm */}
           <div
             style={{
-              fontSize: "50px",
-              color: "white",
               display: "flex",
-              gap: "12px",
+              flexDirection: "column",
+              width: "50%",
+
+              textAlign: "start",
+              justifyContent: "center",
+              marginLeft: "5%"
             }}
           >
-            <span> Lorem </span>
-            <span
+            <div
               style={{
-                background: "-webkit-linear-gradient(right, #3AC5EF, #A060AE)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
+                fontSize: "50px",
+                color: "white",
+                display: "flex",
+                gap: "12px",
               }}
             >
-              {" "}
-              ipsum
-            </span>
-          </div>
-
-          <div style={{ color: "white", width: "80%" }}>
-            <div style={{ color: "white" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <span> Lorem </span>
+              <span
+                style={{
+                  background: "-webkit-linear-gradient(right, #3AC5EF, #A060AE)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                {" "}
+                ipsum
+              </span>
             </div>
-            <br />
-            <div>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </div>
-          </div>
 
-          {/* <div
+            <div style={{ color: "white", width: "80%" }}>
+              <div style={{ color: "white" }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <br />
+              <div>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+              </div>
+            </div>
+
+            {/* <div
 style={{
 width:"100%", display:"flex", justifyContent:"center", marginTop:"50px"
 }}
 > */}
 
-        </div>
-        <div
-          style={{
-            width: "50%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <img
-            style={{
-              width: "80%",
-              height: "60%",
-              // position: "absolute",
-              // top: "1690px",
-              // left: "11%",
-            }}
-            src={future}
-            alt=""
-          />
-        </div>
-
-
-
-    
-      </div>
-
-      {/* Everything on image's right */}
-
-      {/* </div> blck*/}
-      <div
-        style={{
-          width: "100%",
-          background: "#171820",
-          height: "600px",
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-    <div
-          style={{
-            width: "50%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <img
-            style={{
-              width: "80%",
-              height: "60%",
-              // position: "absolute",
-              // top: "1690px",
-              // left: "11%",
-            }}
-            src={images}
-            alt=""
-          />
-        </div>
-
-        {/* div to give flex clm */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "50%",
-
-            textAlign: "start",
-            justifyContent: "center",
-          }}
-        >
+          </div>
           <div
             style={{
-              fontSize: "50px",
-              color: "white",
-              display: "flex",
-              gap: "12px",
-            }}
-          >
-            <span> Lorem </span>
-            <span
-              style={{
-                background: "-webkit-linear-gradient(right, #3AC5EF, #A060AE)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              {" "}
-              ipsum
-            </span>
-          </div>
-
-          <div style={{ color: "white", width: "80%" }}>
-            <div style={{ color: "white" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-            <br />
-            <div>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </div>
-          </div>
-
-          {/* <div
-style={{
-width:"100%", display:"flex", justifyContent:"center", marginTop:"50px"
-}}
-> */}
-          <div
-            style={{
-              background: "-webkit-linear-gradient(right, #3FE0FF, #AC00FD)",
-              height: "50px",
-              width: "40%",
-              marginTop: "90px",
-              borderRadius: "50px",
+              width: "50%",
               display: "flex",
               justifyContent: "center",
-              color: "white",
               alignItems: "center",
             }}
           >
-            <div style={{ marginLeft: "10%" }}>Get Started</div>
-            <div>
-              <img
-                style={{ width: "19%", display: "flex", marginLeft: "45%" }}
-                src={arrow}
-                alt=""
-              />
+            <img
+              style={{
+                width: "80%",
+                height: "60%",
+                // position: "absolute",
+                // top: "1690px",
+                // left: "11%",
+              }}
+              src={future}
+              alt=""
+            />
+          </div>
+
+
+
+
+        </div>
+
+        {/* Everything on image's right */}
+
+        {/* </div> blck*/}
+        <div
+          style={{
+            width: "100%",
+            background: "#171820",
+            height: "600px",
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          <div
+            style={{
+              width: "50%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              style={{
+                width: "80%",
+                height: "60%",
+                // position: "absolute",
+                // top: "1690px",
+                // left: "11%",
+              }}
+              src={images}
+              alt=""
+            />
+          </div>
+
+          {/* div to give flex clm */}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "50%",
+
+              textAlign: "start",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                fontSize: "50px",
+                color: "white",
+                display: "flex",
+                gap: "12px",
+              }}
+            >
+              <span> Lorem </span>
+              <span
+                style={{
+                  background: "-webkit-linear-gradient(right, #3AC5EF, #A060AE)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                {" "}
+                ipsum
+              </span>
+            </div>
+
+            <div style={{ color: "white", width: "80%" }}>
+              <div style={{ color: "white" }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <br />
+              <div>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+              </div>
+            </div>
+
+            {/* <div
+style={{
+width:"100%", display:"flex", justifyContent:"center", marginTop:"50px"
+}}
+> */}
+            <div
+              style={{
+                background: "-webkit-linear-gradient(right, #3FE0FF, #AC00FD)",
+                height: "50px",
+                width: "40%",
+                marginTop: "90px",
+                borderRadius: "50px",
+                display: "flex",
+                justifyContent: "center",
+                color: "white",
+                alignItems: "center",
+              }}
+            >
+              <div style={{ marginLeft: "10%" }}>Get Started</div>
+              <div>
+                <img
+                  style={{ width: "19%", display: "flex", marginLeft: "45%" }}
+                  src={arrow}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-    </div>
 
       </div>
     </>
