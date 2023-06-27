@@ -13,9 +13,12 @@ import Info from './screens/Info';
 function App() {
   return (
 <div>
+
   <Banner/>
+ 
 <UnderBanner/>
 <ThirdPart/>
+
 <FourthSection/>
 
 <FifthSection/>
